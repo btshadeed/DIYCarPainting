@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.diycarpainting.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/car_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rustyoldtruck" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="showActivity"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/start"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/prepare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start"
+            android:background="@android:color/transparent"
+            android:onClick="showActivity"
+            android:paddingBottom="16dp"
+            android:text="@string/prepare"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/sand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prepare"
+            android:background="@android:color/transparent"
+            android:onClick="showActivity"
+            android:paddingBottom="16dp"
+            android:text="@string/sand"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/mask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sand"
+            android:background="@android:color/transparent"
+            android:onClick="showActivity"
+            android:paddingBottom="16dp"
+            android:text="@string/mask"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/paint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mask"
+            android:background="@android:color/transparent"
+            android:onClick="showActivity"
+            android:text="@string/paint"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+</ScrollView>

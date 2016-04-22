@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DIY Car Painting</string>
+    <string name="start">Start Here</string>
+    <string name="prepare">Prepare</string>
+    <string name="sand">Sand and Clean</string>
+    <string name="mask">Mask and Prime</string>
+    <string name="paint">Paint and Buff</string>
+    <string name="first">Find a large, clean area that is free of fire hazards and well ventilated.
+    </string>
+    <string name="equipment">You will need:
+    "\n"A sprayer "\n"Paint "\n"Sanding and Polishing Tools "\n"Respirator and Goggles</string>
+    <string name="second">Remove any rust, dents, trim or body modifications.</string>
+    <string name="third">Sand down to bare metal, then clean with denatured alcohol or mineral
+    spirits.</string>
+    <string name="fourth">Apply masking tape to surfaces you do NOT want painted.
+    "\n"Apply primer. After primer cures, sand until primed surface is smooth.</string>
+    <string name="fifth">Prepare the paint, then paint the car. "\n"When the paint is completely
+    dry, use a rubbing compound or wax to buff the new finish.</string>
+</resources>
